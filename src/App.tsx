@@ -56,7 +56,7 @@ export default function App() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const [activeSpecialty, setActiveSpecialty] = useState<string | null>(null);
-  const [profileImage, setProfileImage] = useState<string>("https://ibb.co/ZRjFhLdw");
+  const [profileImage, setProfileImage] = useState<string>("https://i.ibb.co/MDJJXFyh/eu-nutri-materno-cortada.jpg");
 
   // FAQ States
   const [activeFaqCategory, setActiveFaqCategory] = useState<string>("todos");
