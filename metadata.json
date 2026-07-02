@@ -1,0 +1,6 @@
+{
+  "name": "Nutri Tamires Rosa",
+  "description": "Site profissional para Tamires Rosa, Nutricionista Materno-Infantil especializada em Gestantes, Tentantes, Introdução Alimentar e Saúde Infantil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
