@@ -113,7 +113,8 @@ const [darkMode, setDarkMode] = useState<boolean>(false);
   const whatsappConsultoriaUrl = `${whatsappBaseUrl}?text=Ol%C3%A1%20Tamires!%20Vi%20sobre%20a%20Consultoria%20Online%20no%20seu%20site%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es.`;
 
   return (
-    <div className="min-h-screen bg-[#FCF8F5] dark:bg-[#120B0A] text-stone-800 dark:text-stone-100 transition-colors duration-300 font-sans selection:bg-pink-200 dark:selection:bg-rose-950/50">
+    <div class="min-h-screen bg-[#FCF8F5] text-stone-800 transition-colors duration-300 font-sans selection:bg-pink-200">
+
       
       {/* HEADER / NAVIGATION BAR */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-[#FCF8F5]/85 dark:bg-[#120B0A]/85 border-b border-pink-100/30 dark:border-rose-950/20 transition-colors duration-300">
