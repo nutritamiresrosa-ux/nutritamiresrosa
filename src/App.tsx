@@ -44,15 +44,8 @@ import {
 } from "./data";
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState<boolean>(() => {
-    // Read from localStorage if available, default to light
-    if (typeof window !== "undefined") {
-      const saved = localStorage.getItem("theme");
-      if (saved) return saved === "dark";
-      return window.matchMedia("(prefers-color-scheme: dark)").matches;
-    }
-    return false;
-  });
+const [darkMode, setDarkMode] = useState<boolean>(false);
+
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const [activeSpecialty, setActiveSpecialty] = useState<string | null>(null);
