@@ -176,7 +176,7 @@ export const faqItems: FaqItem[] = [
   {
     id: "faq-seletividade",
     category: "especialidades",
-    question: "Como a nutrição ajuda crianças com seletividade alimentar extrema no TEA ou TDAH?",
+    question: "Como a nutrição ajuda crianças com seletividade alimentar no TEA ou TDAH?",
     answer: "Trabalhamos através da modulação do eixo intestino-cérebro, melhorando a microbiota e corrigindo carências de micronutrientes que afetam o comportamento e o sono. A nível comportamental, usamos estratégias de aproximação sensorial gradual e sistemática (cor, textura, temperatura e formato), eliminando pressões e tornando a refeição um momento de descoberta respeitosa. Para a Terapia Alimentar com crianças, indico o atendimento presencial para garantir a melhor eficácia do processo.",
   },
   {
