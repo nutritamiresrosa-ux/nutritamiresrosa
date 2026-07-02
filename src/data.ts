@@ -62,7 +62,7 @@ export const specializations: Specialization[] = [
   },
   {
     id: "neuro",
-    title: " Autismo TEA & TDAH",
+    title: " Autismo & TDAH",
     badge: "Seletividade",
     description: "Modulação do eixo intestino-cérebro para auxiliar no foco, sono e comportamento. Estratégias especializadas para mitigar a seletividade alimentar extrema e deficiências nutricionais recorrentes.",
     iconName: "Brain",
