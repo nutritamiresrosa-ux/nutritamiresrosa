@@ -72,16 +72,12 @@ export default function App() {
   // Modal for Online Consulting
   const [consultoriaOpen, setConsultoriaOpen] = useState<boolean>(false);
 
-  useEffect(() => {
-    const root = window.document.documentElement;
-    if (darkMode) {
-      root.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      root.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [darkMode]);
+ useEffect(() => {
+  const root = window.document.documentElement;
+  root.classList.remove("dark");
+  localStorage.setItem("theme", "light");
+}, []);
+
 
   // Handle WhatsApp message formatting & redirection
   const handleWhatsAppSubmit = (e: React.FormEvent) => {
